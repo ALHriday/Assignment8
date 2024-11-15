@@ -10,7 +10,7 @@ const Statistic = () => {
         <div className="relative p-4">
             <div className="h-[360px] lg:h-[300px] bg-purple-600 p-4 text-white text-center flex flex-col gap-4 rounded-md">
                 <h1 className="text-4xl font-bold">Product Details</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto perferendis accusantium minus maxime repellat debitis perspiciatis voluptatum, alias, fuga numquam provident nulla rem non illo animi aut vitae, rerum officiis.</p>
+                <p>Discover the latest in cutting-edge technology with our collection of gadgets. From smart devices to innovative accessories, these must-have tools make life easier, smarter, and more connected.</p>
             </div>
             <div className="absolute left-[17%] top-[36%] w-4/6 z-50 bg-base-100 rounded-xl shadow-lg">
 
