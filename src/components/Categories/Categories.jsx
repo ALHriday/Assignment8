@@ -18,7 +18,10 @@ const Categories = () => {
     useEffect(() => {
         fetch('products.json')
             .then(res => res.json())
-            .then(data => setProducts(data))
+            .then(data => {
+                const minData = data.slice(0, 6);
+                setProducts(minData)
+            })
     }, [])
 
     const productCategory = (category) => { 
@@ -28,6 +31,8 @@ const Categories = () => {
             setProducts(filterC.products);
         }
     }
+
+    
 
 
     return (

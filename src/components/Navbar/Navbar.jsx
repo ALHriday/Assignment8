@@ -2,6 +2,7 @@ import { useContext } from "react";
 import { Link} from "react-router-dom";
 import { HandleContextApi } from "../../App";
 import { FaCartPlus } from "react-icons/fa6";
+import { FaHeart } from "react-icons/fa";
 
 const Navbar = () => {
     
@@ -29,23 +30,23 @@ const Navbar = () => {
                         <ul
                             tabIndex={0}
                             className="menu menu-sm dropdown-content bg-base-100 text-black rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                            <Link className="px-4 py-2" to='/'>Home</Link>
-                            <Link className="px-4 py-2" to='/statistic'>Statistic</Link>
-                            <Link className="px-4 py-2" to='/dashboard'>Dashboard</Link>
+                            <Link className="hover:bg-black hover:text-white px-4 py-2" to='/'>Home</Link>
+                            <Link className="hover:bg-black hover:text-white px-4 py-2" to='/statistic'>Statistic</Link>
+                            <Link className="hover:bg-black hover:text-white px-4 py-2" to='/dashboard'>Dashboard</Link>
                         </ul>
                     </div>
                     <a className="btn btn-ghost text-xl">Gadget Heaven</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
-                        <Link className="px-4 py-2" to='/'>Home</Link>
-                        <Link className="px-4 py-2" to='/statistic'>Statistic</Link>
-                        <Link className="px-4 py-2" to='/dashboard'>Dashboard</Link>
+                        <Link className="hover:bg-black hover:text-white px-4 py-2" to='/'>Home</Link>
+                        <Link className="hover:bg-black hover:text-white px-4 py-2" to='/statistic'>Statistic</Link>
+                        <Link className="hover:bg-black hover:text-white px-4 py-2" to='/dashboard'>Dashboard</Link>
                     </ul>
                 </div>
                 <div className="navbar-end">
                     <Link onClick={()=> handleBtn('Cart')} className="btn rounded-full px-4 py-2 mr-2 hover:bg-green-400" to='/dashboard'><FaCartPlus /></Link>
-                    <Link onClick={()=> handleBtn('Wishlist')} className="btn rounded-full px-4 py-2 hover:bg-green-400" to='/dashboard'>Wish-List</Link>
+                    <Link onClick={()=> handleBtn('Wishlist')} className="btn rounded-full px-4 py-2 hover:bg-green-400" to='/dashboard'><FaHeart /></Link>
                 </div>
             </div>
         </div>

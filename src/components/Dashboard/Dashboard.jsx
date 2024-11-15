@@ -4,6 +4,7 @@ import Cart from "../Cart/Cart";
 import WishList from "../WishList/WishList";
 import { HandleContextApi } from "../../App";
 import { FaCartPlus } from "react-icons/fa6";
+import { FaHeart } from "react-icons/fa";
 
 const Dashboard = () => {
 
@@ -19,7 +20,7 @@ const Dashboard = () => {
                 <p>Explore the latest Gadgets that will take your experience to the next level.</p>
                 <div className="flex gap-4 justify-center items-center">
                     <button onClick={() => handleBtn('Cart')} className={isActive.cart ? 'btn btn-md rounded-full bg-green-400' : 'btn btn-md rounded-full'}><FaCartPlus /></button>
-                    <button onClick={() => handleBtn('Wishlist')} className={!isActive.cart ? 'btn btn-md rounded-full bg-green-400' : 'btn btn-md rounded-full'}>Wish-List</button>
+                    <button onClick={() => handleBtn('Wishlist')} className={!isActive.cart ? 'btn btn-md rounded-full bg-green-400' : 'btn btn-md rounded-full'}><FaHeart /></button>
                 </div>
             </div>
 
@@ -45,8 +46,8 @@ const Dashboard = () => {
                             <div className="flex gap-4">
                                 <h1 className="py-1 text-xl font-bold text-white">Total Amount: { wishListItemPrice }$</h1>
                                 <div className="flex gap-2">
-                                    <button className="btn btn-sm">Short By Price</button>
-                                    <button className="btn btn-sm">Purchess</button>
+                                    <button className="btn btn-lg">Short By Price</button>
+                                    <button className="btn btn-lg">Purchase</button>
                                 </div>
                             </div>
                         </div>
