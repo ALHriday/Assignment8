@@ -33,7 +33,7 @@ const Dashboard = () => {
                                 <h1 className="py-1 text-xl font-bold text-white">Total Amount: {cartPice}$</h1>
                                 <div className="flex gap-2">
                                     <button onClick={() => sortByPrice()} className="btn btn-sm">Short By Price</button>
-                                    <button className="btn btn-sm">Purchess</button>
+                                    <button className="btn btn-sm">Purchase</button>
                                 </div>
                             </div>
                         </div>
@@ -46,8 +46,8 @@ const Dashboard = () => {
                             <div className="flex gap-4">
                                 <h1 className="py-1 text-xl font-bold text-white">Total Amount: { wishListItemPrice }$</h1>
                                 <div className="flex gap-2">
-                                    <button className="btn btn-lg">Short By Price</button>
-                                    <button className="btn btn-lg">Purchase</button>
+                                    <button className="btn btn-sm">Short By Price</button>
+                                    <button className="btn btn-sm">Purchase</button>
                                 </div>
                             </div>
                         </div>

@@ -7,9 +7,9 @@ const Cart = ({ isActive, productItem }) => {
     const { productTitle, price, productImage } = productItem || {};
 
     return (
-        <div className={isActive.cart ? 'bg-slate-200' : 'bg-slate-200 hidden'}>
+        <div className={isActive.cart ? 'bg-slate-100' : 'bg-slate-100 hidden'}>
             
-            <div className="grid grid-cols-4 border-b-2 border-black p-4 bg-green-300 w-11/12 mx-auto">
+            <div className="grid grid-cols-4 border-b-2 border-black p-4 bg-slate-200">
                 <div className="h-[160px]">
                     <img className="w-full h-full object-contain rounded-xl" src={productImage} alt="" />
                 </div>
