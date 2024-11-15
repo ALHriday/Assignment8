@@ -1,0 +1,242 @@
+[
+  {
+    "productId": "P001",
+    "productTitle": "iPhone 15 Pro Max",
+    "price": 1099.99,
+    "productImage": "https://images.pexels.com/photos/16004978/pexels-photo-16004978/free-photo-of-apple-iphone-14-pro-max-mobile-phone.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "category": "smartphone",
+    "description": "The latest iPhone with improved camera, performance, and design.",
+    "specification": [
+      "6.7-inch Super Retina XDR display",
+      "A17 Pro chip",
+      "48MP primary camera",
+      "5G support"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "productId": "P002",
+    "productTitle": "Samsung Galaxy S23",
+    "price": 799.99,
+    "productImage": "https://images.pexels.com/photos/15493878/pexels-photo-15493878/free-photo-of-hands-on-samsung-galaxy-s23-ultra-5g-green-color-mention-zana_qaradaghy-on-instagram-while-use-this-photo-follow-on-instagram-zana_qaradaghy.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "category": "smartphone",
+    "description": "Samsung's flagship phone with a stunning display and powerful chipset.",
+    "specification": [
+      "6.1-inch Dynamic AMOLED 2X display",
+      "Snapdragon 8 Gen 2",
+      "50MP main camera",
+      "5G support"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "productId": "P003",
+    "productTitle": "MacBook Air M2",
+    "price": 1199.99,
+    "productImage": "https://images.pexels.com/photos/4006151/pexels-photo-4006151.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "category": "laptop",
+    "description": "Lightweight, ultra-portable laptop with Apple's M2 chip.",
+    "specification": [
+      "13.6-inch Retina display",
+      "Apple M2 chip",
+      "8GB RAM, 256GB SSD",
+      "18 hours battery life"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "productId": "P004",
+    "productTitle": "Dell XPS 13",
+    "price": 1399.99,
+    "productImage": "https://images.pexels.com/photos/4006158/pexels-photo-4006158.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "category": "laptop",
+    "description": "A premium ultrabook with a stunning 4K display and Intel Core i7.",
+    "specification": [
+      "13.4-inch 4K touchscreen",
+      "Intel Core i7-1365U",
+      "16GB RAM, 512GB SSD",
+      "Windows 11"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "productId": "P005",
+    "productTitle": "Bose QuietComfort 45",
+    "price": 329.99,
+    "productImage": "https://images.pexels.com/photos/26832584/pexels-photo-26832584/free-photo-of-close-up-of-a-huawei-smartphone-and-wireless-headphones.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "category": "accessories",
+    "description": "Noise-canceling over-ear headphones with superior sound quality.",
+    "specification": [
+      "Active Noise Cancelling",
+      "Bluetooth 5.1",
+      "20 hours battery life",
+      "Comfortable fit"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "productId": "P006",
+    "productTitle": "Apple AirPods Pro 2nd Gen",
+    "price": 249.99,
+    "productImage": "https://images.pexels.com/photos/3825517/pexels-photo-3825517.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "category": "accessories",
+    "description": "High-quality true wireless earbuds with active noise cancellation.",
+    "specification": [
+      "Active Noise Cancellation",
+      "Spatial audio support",
+      "Up to 6 hours of listening",
+      "IPX4 water resistance"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "productId": "P007",
+    "productTitle": "Fossil Gen 6 Smartwatch",
+    "price": 299.99,
+    "productImage": "https://images.pexels.com/photos/13566767/pexels-photo-13566767.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "category": "watch",
+    "description": "A stylish smartwatch with fitness tracking and heart rate monitoring.",
+    "specification": [
+      "1.28-inch AMOLED display",
+      "Wear OS by Google",
+      "Heart rate monitor",
+      "GPS, Bluetooth"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "productId": "P008",
+    "productTitle": "Samsung Galaxy Watch 6",
+    "price": 349.99,
+    "productImage": "https://images.pexels.com/photos/23475/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "category": "watch",
+    "description": "A sleek smartwatch with advanced health features and long battery life.",
+    "specification": [
+      "1.4-inch Super AMOLED display",
+      "Exynos W920 chipset",
+      "ECG, Blood Oxygen monitoring",
+      "GPS, LTE"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "productId": "P009",
+    "productTitle": "iPad Air 5th Gen",
+    "price": 599.99,
+    "productImage": "https://images.pexels.com/photos/1334597/pexels-photo-1334597.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "category": "tablet",
+    "description": "A powerful tablet with the M1 chip, perfect for work and play.",
+    "specification": [
+      "10.9-inch Liquid Retina display",
+      "Apple M1 chip",
+      "64GB storage",
+      "12MP rear camera"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "productId": "P010",
+    "productTitle": "Samsung Galaxy Tab S8",
+    "price": 799.99,
+    "productImage": "https://images.pexels.com/photos/2070069/pexels-photo-2070069.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "category": "tablet",
+    "description": "A premium Android tablet with a large display and powerful performance.",
+    "specification": [
+      "11-inch TFT display",
+      "Snapdragon 8 Gen 1",
+      "128GB storage",
+      "S Pen included"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "productId": "P011",
+    "productTitle": "Anker Wireless Charger",
+    "price": 59.99,
+    "productImage": "https://images.pexels.com/photos/5948341/pexels-photo-5948341.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "category": "accessories",
+    "description": "A fast wireless charger with a sleek design.",
+    "specification": [
+      "15W fast charging",
+      "Qi-enabled",
+      "Compact design",
+      "Compatible with iPhone and Android"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "productId": "P012",
+    "productTitle": "Logitech MX Master 3S Mouse",
+    "price": 99.99,
+    "productImage": "https://images.pexels.com/photos/2115256/pexels-photo-2115256.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "category": "accessories",
+    "description": "Ergonomic wireless mouse with precision tracking and customizable buttons.",
+    "specification": [
+      "Bluetooth connectivity",
+      "5000 DPI tracking",
+      "Rechargeable battery",
+      "Customizable buttons"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "productId": "P013",
+    "productTitle": "Asus ROG Zephyrus G14",
+    "price": 1599.99,
+    "productImage": "https://images.pexels.com/photos/18105/pexels-photo.jpg",
+    "category": "laptop",
+    "description": "Gaming laptop with powerful AMD Ryzen 9 and NVIDIA graphics.",
+    "specification": [
+      "14-inch Full HD display",
+      "AMD Ryzen 9 7940HS",
+      "16GB RAM, 1TB SSD",
+      "NVIDIA GeForce RTX 4060"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "productId": "P014",
+    "productTitle": "OnePlus 11 5G",
+    "price": 799.99,
+    "productImage": "https://images.pexels.com/photos/10343714/pexels-photo-10343714.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "category": "smartphone",
+    "description": "Flagship smartphone with a 50MP camera and Snapdragon 8 Gen 2 chipset.",
+    "specification": [
+      "6.7-inch AMOLED display",
+      "Snapdragon 8 Gen 2",
+      "50MP primary camera",
+      "5G support"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "productId": "P015",
+    "productTitle": "Huawei MatePad Pro",
+    "price": 749.99,
+    "productImage": "https://images.pexels.com/photos/2351844/pexels-photo-2351844.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "category": "tablet",
+    "description": "A high-performance tablet with a large screen and powerful chipset.",
+    "specification": [
+      "12.6-inch OLED display",
+      "Kirin 9000E chip",
+      "128GB storage",
+      "5G support"
+    ],
+    "availability": true,
+    "rating": 4.7
+  }
+]
